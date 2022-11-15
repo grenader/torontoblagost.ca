@@ -7,8 +7,10 @@ handlers:
     static_files: www/index.html
     upload: www/index.html
     expiration: "1m"
+    secure: always
 
   - url: /(.*)
     static_files: www/\1
     upload: www/(.*)
     expiration: "1h"
+    secure: always
