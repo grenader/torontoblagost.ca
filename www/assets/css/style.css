@@ -192,7 +192,7 @@ h6 {
   opacity: 0;
   visibility: hidden;
   background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  box-shadow: 0 0 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
 }
 
@@ -336,7 +336,7 @@ h6 {
   opacity: 1;
   visibility: visible;
   background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  box-shadow: 0 0 30px rgba(127, 137, 161, 0.25);
 }
 
 .navbar-mobile .dropdown ul li {
@@ -862,7 +862,7 @@ section {
 
 .portfolio-details .portfolio-info {
   padding: 30px;
-  box-shadow: 0px 0 30px rgba(73, 60, 62, 0.08);
+  box-shadow: 0 0 30px rgba(73, 60, 62, 0.08);
 }
 
 .portfolio-details .portfolio-info h3 {
@@ -1034,7 +1034,6 @@ section {
 .faq .faq-list .question {
   display: block;
   position: relative;
-  font-family: #e43c5c;
   font-size: 18px;
   line-height: 24px;
   font-weight: 400;
@@ -1098,7 +1097,7 @@ section {
   text-align: center;
   border-radius: 5px;
   background: #fff;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
 }
 
 .team .member .member-img {
@@ -1879,7 +1878,7 @@ section {
   color: #444444;
   font-size: 14px;
   background: #f6f4f4;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
 }
 
 #footer .footer-top {
@@ -1995,7 +1994,7 @@ section {
   color: #fff;
   transition: 0.3s;
   border-radius: 50px;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
 }
 
 #footer .footer-newsletter form input[type=submit]:hover {
@@ -2059,3 +2058,5 @@ div.img-blur:after {
     display: none;
   }
 }
+
+/* Useful page: https://getbootstrap.com/docs/4.0/utilities/display/ */
