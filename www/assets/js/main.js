@@ -81,10 +81,11 @@
   /**
    * Toggle .header-scrolled class to #header when page is scrolled
    */
+  const HEADER_Y_CHANGE = 30;
   let selectHeader = select('#header')
   if (selectHeader) {
     const headerScrolled = () => {
-      if (window.scrollY > 100) {
+      if (window.scrollY > HEADER_Y_CHANGE) {
         selectHeader.classList.add('header-scrolled')
       } else {
         selectHeader.classList.remove('header-scrolled')
@@ -100,7 +101,7 @@
   let backtotop = select('.back-to-top')
   if (backtotop) {
     const toggleBacktotop = () => {
-      if (window.scrollY > 100) {
+      if (window.scrollY > HEADER_Y_CHANGE) {
         backtotop.classList.add('active')
       } else {
         backtotop.classList.remove('active')
