@@ -2059,4 +2059,10 @@ div.img-blur:after {
   }
 }
 
+/*optgroup { font-size:3px; }*/
+
+select.price {
+  font-size: 14px;
+}
+
 /* Useful page: https://getbootstrap.com/docs/4.0/utilities/display/ */
