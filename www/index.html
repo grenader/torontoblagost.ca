@@ -75,13 +75,13 @@
           <li><a class="nav-link scrollto" href="#about">О нас</a></li>
           <li><a class="nav-link scrollto" href="#discussions">Общение</a></li>
           <li><a class="nav-link scrollto " href="#lecture">Лекция Вадима Тунеева</a></li>
-          <li><a class="nav-link scrollto" href="#tickets">Билеты</a></li>
           <li><a class="nav-link scrollto" href="#meetings">Встречи</a></li>
           <li><a class="nav-link scrollto" href="#contact">Контакты</a></li>
 <!--
           <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
               <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
                   <li><a href="#">Deep Drop Down 1</a></li>
@@ -107,27 +107,33 @@
 
   <!-- ======= Hero Section ======= -->
   <section id="hero">
-    <div class="hero-container">
-      <div class="hide-on-landscape"> <!--  Adding some space to move the rest down  -->
+<!--    <div class="hero-container">
         <br>
         <br>
         <br>
+      </div>-->
+
+    <div class="hero-container"><!-- hide on screens smaller than md d-none  d-md-block  -->
+      <div class="img-blur">
+        <img alt="Духовное знание в Торонто Лого" src="assets/img/SpiritualKnowledgeToronto.jpg"
+             style="width: 200px; height: auto;"/>
       </div>
-<!--
-      <div class="d-none d-md-block"> &lt;!&ndash;hide on screens smaller than md&ndash;&gt;
-        <div class="img-blur">
-          <img alt="Духовное знание в Торонто Лого" src="assets/img/SpiritualKnowledgeToronto.jpg"
-               style="width: 200px; height: auto;"/>
-        </div>
-        <br><br>
-        <h3>Добро пожаловать на вебсайт общества <strong>"Духовное Знание в Торонто"</strong></h3>
-      </div>
-      <div class="d-md-none"> &lt;!&ndash;show on screens bigger than md&ndash;&gt;
-        <br>
-        <br>
-      </div>
-      <h2>Приглашаем на уникальное мероприятие!</h2>
--->
+      <br>
+      <br>
+    <div class="hide-on-landscape"> <!-- Adding some space to move the rest down  -->
+      <br><br><br><br>
+      <h3>Добро пожаловать на вебсайт общества <strong>"Духовное Знание в Торонто"</strong></h3>
+    </div>
+    </div>
+    <!--
+          <div class="d-md-none"> &lt;!&ndash; show on screens bigger than md& &ndash;&gt;
+            <br>
+            <br>
+          </div>
+    -->
+      <!--
+            <h2>Приглашаем на уникальное мероприятие!</h2>
+
       <h2>Мудрость, духовность и знание о счастье с Вадимом Тунеевым</h2>
       <h3>17 декабря в Торонто пройдет лекция Вадима Тунеева -<br> философа, мудреца, поэта, путешественника и духовного наставника</h3>
       <div class="hide-on-landscape">
@@ -135,6 +141,7 @@
       </div>
       <br>
        <a href="#lecture" class="btn-get-started scrollto">Вадим Тунеев в Торонто</a>
+      -->
     </div>
   </section><!-- End Hero -->
 
@@ -336,6 +343,37 @@
     <!-- End Features Section -->
 
     <!-- ======= Cta Section ======= -->
+    <section id="lecture" class="cta">
+      <div class="container">
+
+        <div class="text-center">
+
+<!--    <section id="lecture" class="about">-->
+<!--      <div class="container">-->
+<!--        <div class="section-title"><h2>Лекция в Торонто</h2>-->
+          <h3>В декабре 2022 года в Торонто прошла лекция <span>Вадима Тунеева</span></h3>
+          <br>
+<!--          <p>17 декабря 2022 года в Торонто пройдет единственная встреча с известным духовным лидером Вадимом Тунеевым.</p></div>-->
+        <div class="row content">
+          <div class="col-lg-6">
+          <p>
+            Вадим Тунеев - отречённый человек, странствующий монах, который делится с человечеством древней бесценной ведической мудростью.
+          </p>
+            <div class="d-flex align-items-center justify-content-center">
+              <a href="vadim-tuneev.html" class="btn-learn-more">Подробнее о Вадиме Тунееве</a>
+            </div>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0">
+            <p> Вадим Тунеев - вынужден был уехать из Советского Союза, сейчас он гражданин Швеции, последнее время живет в Индии. Помимо русского, Вадим прекрасно говорит на английском и в совершенстве знает древний язык санскрит.</p>
+            <div class="d-flex align-items-center justify-content-center">
+              <a href="vadim-2022.html" class="btn-learn-more">Подробнее о лекции в Торонто</a>
+            </div>
+          </div>
+      </div>
+      </div>
+      </div>
+    </section>
+<!--
     <section id="lecture" class="about">
       <div class="container">
         <div class="section-title"><h2>Лекция в Торонто</h2>
@@ -350,14 +388,6 @@
             <div class="d-flex align-items-center justify-content-center">
               <a href="vadim-2022.html" class="btn-learn-more">Подробнее о Вадиме Тунееве</a>
             </div>
-
-            <!--
-            <ul>
-              <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-              <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit</li>
-              <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-            </ul>
--->
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0"><p>В Канаде Вадим Тунеев даст ТОЛЬКО одну лекцию - 17 декабря.</p>
             <p>Воспользуйтесь этой уникальной возможностью общения с возвышенным человеком, который раскроет секреты счастливой жизни в двухчасовой лекции <i><b>“Секрет счастья в мире перемен”</b></i>. </p>
@@ -368,6 +398,9 @@
       </div>
       </div>
     </section>
+-->
+
+    <!--
     <section id="tickets" class="cta">
       <div class="container">
 
@@ -399,13 +432,15 @@
                 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                     </span>
           </form>
-<br>
-<br>
+          <br>
+          <br>
           <a class="cta-btn" href="vadim-2022.html">Узнать больше о мероприятии</a>
         </div>
 
       </div>
-    </section><!-- End Cta Section -->
+    </section>
+    -->
+
 <!--
 
      ======= Portfolio Section =======
