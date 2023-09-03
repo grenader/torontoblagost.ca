@@ -1735,7 +1735,7 @@ section {
 }
 
 .blog .sidebar {
-  padding: 30px;
+  padding: 20px;
   margin: 0 0 60px 20px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
 }
@@ -2076,5 +2076,15 @@ div.img-blur:after {
 select.price {
   font-size: 14px;
 }
+
+/*Better PayPal select price size*/
+select.sb {
+  width: 210px;
+}
+select.sb:focus {
+  min-width: 210px;
+  width: auto;
+}
+
 
 /* Useful page: https://getbootstrap.com/docs/4.0/utilities/display/ */
