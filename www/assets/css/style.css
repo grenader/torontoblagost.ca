@@ -699,6 +699,8 @@ section {
 }
 
 .gradient {
+  background-image: linear-gradient(to right top, #ffffff, #eff0fb, #dae2f8, #c0d6f5, #a1cbf0, #93cbef, #84caec, #75cae8, #7fd4e9, #8cdde9, #9be6e9, #abeeea);
+  /*
   background: hsla(0, 0%, 100%, 1);
 
   background: linear-gradient(0deg, hsla(0, 0%, 100%, 1) 1%, hsla(170, 42%, 71%, 1) 15%, hsla(216, 26%, 63%, 1) 34%, hsla(216, 26%, 63%, 1) 69%, hsla(170, 42%, 71%, 1) 84%, hsla(0, 0%, 100%, 1) 100%);
@@ -708,6 +710,7 @@ section {
   background: -webkit-linear-gradient(0deg, hsla(0, 0%, 100%, 1) 1%, hsla(170, 42%, 71%, 1) 15%, hsla(216, 26%, 63%, 1) 34%, hsla(216, 26%, 63%, 1) 69%, hsla(170, 42%, 71%, 1) 84%, hsla(0, 0%, 100%, 1) 100%);
 
   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFFFFF", endColorstr="#96D4CA", GradientType=1 );
+  */
 }
 
 .cta h3 {

@@ -5,6 +5,11 @@ We are using the following template:
     Template Name: Tempo
     Template URL: https://bootstrapmade.com/tempo-free-onepage-bootstrap-theme/
 
+# How to set the correct current project
+```
+gcloud config set project  torontoblagost-ca
+```
+
 # How to deploy
 ```
 gcloud app deploy
@@ -12,6 +17,6 @@ gcloud app deploy
 
 # How to deploy to an alternative version
 ```
-gcloud app deploy -v oleg-draft --no-promote
+gcloud app deploy -v torsunov-draft --no-promote
 ```
 
