@@ -2089,5 +2089,17 @@ select.sb:focus {
   width: auto;
 }
 
+.btn {
+  font-size: 1rem;
+}
+
+.image-blurred-edge {
+  background: url("../img/oleg-torsunov-toronto-blagost-bio.png");
+  background-size: 300px;
+  width: 300px;
+  height: 260px;
+  /* you need to match the shadow color to your background or image border for the desired effect*/
+  box-shadow: 0 0 8px 8px white inset;
+}
 
 /* Useful page: https://getbootstrap.com/docs/4.0/utilities/display/ */
