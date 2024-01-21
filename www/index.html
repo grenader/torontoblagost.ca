@@ -46,8 +46,13 @@
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+  <link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.8.95/css/materialdesignicons.min.css">
+
+
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/pricing-plan.css">
+
 
   <!-- =======================================================
   * Template Name: Tempo - v4.9.1
@@ -56,6 +61,12 @@
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
   <script type="text/javascript">!function(){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src='https://vk.com/js/api/openapi.js?169',t.onload=function(){VK.Retargeting.Init("VK-RTRG-1619099-hRvKQ"),VK.Retargeting.Hit()},document.head.appendChild(t)}();</script><noscript><img src="https://vk.com/rtrg?p=VK-RTRG-1619099-hRvKQ" style="position:fixed; left:-999px;" alt=""/></noscript>
+
+  <style>
+    .row>* {
+      padding-right: calc(var(--bs-gutter-x) * .9);
+      padding-left: calc(var(--bs-gutter-x) * .9);
+  </style>
 </head>
 
 <body>
@@ -73,8 +84,8 @@
           <li><a class="nav-link scrollto active" href="#hero">Главная</a></li>
           <li><a class="nav-link scrollto" href="#about">О нас</a></li>
           <li><a class="nav-link scrollto" href="#discussions">Общение</a></li>
-          <li><a class="nav-link scrollto" href="#lecture">Олег Геннадьевич Торсунов в Торонто</a></li>
-<!--          <li><a class="nav-link scrollto" href="#tickets">Билеты</a></li>-->
+          <li><a class="nav-link scrollto" href="#lecture">Олег Торсунов в Торонто</a></li>
+          <li><a class="nav-link scrollto" href="#tickets">Билеты</a></li>
 <!--          <li><a class="nav-link scrollto" href="#meetings">Встречи</a></li>-->
           <li><a class="nav-link scrollto" href="#contact">Контакты</a></li>
 <!--
@@ -205,7 +216,7 @@
     </section><!-- End About Section -->
 
     <!-- ======= Services Section ======= -->
-    <section id="discussions" class="services">
+    <section id="discussions" class="services about gradient">
       <div class="container">
 
         <div class="section-title">
@@ -362,7 +373,7 @@
     <!-- End Features Section -->
 
     <!-- ======= Cta Section ======= -->
-    <section id="lecture" class="about gradient">
+    <section id="lecture" class="about">
       <div class="container">
         <div class="section-title"><h2>Семинар Торсунова в Торонто</h2>
           <h3>Приглашаем на очный семинар <span>Олега Геннадьевича Торсунова</span></h3>
@@ -456,81 +467,201 @@
       </div>
     </section>
 
-    <section id="tickets" class="about gradient" style="display: none">
+    <section id="tickets" class="about gradient-tickets" >
       <div class="container">
 
         <div class="content text-center">
-          <h3>Приобрести билеты на встречу с Рами Блектом и Вадимом Тунеевым</h3>
-          <h4>16 сентября 2023, 1pm, North York Central Library</h4>
 
-          <p>Купите свой билет до 15-го сентября по специальной цене 80.00 CAD<br>
-            Полная цена билета составляет 100.00 CAD.
-            Скидки при покупке нескольких билетов<br>
-          </p>
-          <div>
-            <br>
+          <h3>Приобрести билеты на семинар Торсунова "Искусство семейных отношений"</h3>
+          <h4>20, 21 и 22 марта 2024, 6-9pm, North York Memorial Hall</h4>
 
-            <p><b>Заполните форму ниже и завершите оплату через PayPal</b></p>
+            <h3 class="text-center pricing-table-subtitle">Варианты билетов<br><br></h3>
+            <!--                                <h1 class="text-center pricing-table-title">Pricing Table</h1>-->
+            <h4 style="text-align: center; color:red; font-weight: bold">&darr; До 15 февраля действуют скидки &darr;</h4><br><br>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card pricing-card pricing-card-silver pricing-plan-silver">
+                  <div class="card-body">
+                    <i class="mdi mdi-numeric-3-circle pricing-plan-icon"></i>
+                    <p class="pricing-plan-title">Все Три Дня</p>
+                    <h3 class="pricing-plan-discount ml-auto">скидка 30%</h3>
+                    <h3 class="pricing-plan-cost ml-auto">$150 CAD</h3>
 
-
-            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-              <input type="hidden" name="cmd" value="_s-xclick"/>
-              <input type="hidden" name="hosted_button_id" value="3S59CW4LHH6SC"/>
-              <p><input type="hidden" name="on0" value="Select your buying option">Выберите вариант покупки / Pick your purchase:</p>
-              <p>
-                <select name="os0">
-                  <option value="one ticket, early bird">
-                    one ticket, early bird $80.00 CAD
-                  </option>
-                  <option value="one ticket, full price">
-                    one ticket, full price $100.00 CAD
-                  </option>
-                  <option value="2 tickets, bring a friend">
-                    2 tickets, bring a friend $135.00 CAD
-                  </option>
-                  <option value="3 tickets, bring two friends">
-                    3 tickets, bring two friends $200.00 CAD
-                  </option>
-                </select>
-              </p>
-              <span style="width: 100%">
-            <input type="hidden" name="currency_code" value="CAD"/>
-            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0"
-                   name="submit" title="PayPal - The safer, easier way to pay online!" alt="Buy Now"/>
-                    <br>
-                  <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1"
-                       height="1">
-                </span>
-            </form>
-            Если Вы купили билет для нескольких человек, мы свяжемся с Вами и уточним имена посетителей лекции.<br>
-            Для желающих, на лекции будет организован перевод на английский.
-
-          </div>
-
-          <!--
+                    <!--150-->
                     <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                      <input type="hidden" name="cmd" value="_s-xclick">
-                      <input type="hidden" name="hosted_button_id" value="L9DUDL7L3MNVC">
-                      <input type="hidden" name="currency_code" value="CAD">
-                      <p><input type="hidden" name="on0" value="Select your buying option">Выберите вариант покупки:</p>
-                      <p>
-                        <select name="os0" >
-                          <option value="one ticket, early bird">one ticket, early bird $50.00 CAD</option>
-                          <option value="one ticket, full price">one ticket, full price $60.00 CAD</option>
-                          <option value="two tickets, bring a friend">two, bring a friend $80.00 CAD</option>
-                        </select>
-                      </p>
-                      <span style="width: 100%">
-                            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif"
-                                   border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                              <br>
-                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1"
-                                 height="1">
-                          </span>
+                      <input type="hidden" name="cmd" value="_s-xclick" />
+                      <input type="hidden" name="hosted_button_id" value="8YTKT58B6V9F6" />
+                      <input type="hidden" name="currency_code" value="CAD" />
+                      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Buy Now" />
                     </form>
-                    -->
+
+                    <hr>
+                    <p class="pricing-plan-title">2 x Все Три Дня</p>
+                    <h3 class="pricing-plan-discount ml-auto">скидка 41%</h3>
+                    <h3 class="pricing-plan-cost ml-auto">$255 CAD за два билета</h3>
+
+                    <!--255-->
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                      <input type="hidden" name="cmd" value="_s-xclick" />
+                      <input type="hidden" name="hosted_button_id" value="2YDRQ5559ASYE" />
+                      <input type="hidden" name="currency_code" value="CAD" />
+                      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Buy Now" />
+                    </form>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card pricing-card pricing-card-golden  pricing-plan-golden">
+                  <div class="card-body">
+                    <i class="mdi mdi-trophy pricing-plan-icon"></i>
+                    <p class="pricing-plan-title" style="font-weight: bold">VIP Все Три Дня *</p>
+                    <h3 class="pricing-plan-discount ml-auto">скидка 30%</h3>
+                    <h3 class="pricing-plan-cost ml-auto">$220 CAD</h3>
+
+                    <!--220-->
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                      <input type="hidden" name="cmd" value="_s-xclick" />
+                      <input type="hidden" name="hosted_button_id" value="S3FSF68EQRA2W" />
+                      <input type="hidden" name="currency_code" value="CAD" />
+                      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Buy Now" />
+                    </form>
+                    <hr>
+                    <p class="pricing-plan-title">2 x VIP Все Три Дня *</p>
+                    <h3 class="pricing-plan-discount ml-auto">скидка 41%</h3>
+                    <h3 class="pricing-plan-cost ml-auto">$370 CAD за два билета</h3>
+
+                    <!--370-->
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                      <input type="hidden" name="cmd" value="_s-xclick" />
+                      <input type="hidden" name="hosted_button_id" value="DEZULQSTAMAC2" />
+                      <input type="hidden" name="currency_code" value="CAD" />
+                      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Buy Now" />
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card pricing-card pricing-card-green pricing-plan-green">
+                  <div class="card-body">
+                    <i class="mdi mdi-license pricing-plan-icon"></i>
+                    <p class="pricing-plan-title">Только один день **</p>
+                    <h3 class="pricing-plan-discount ml-auto" style="font-size: 16px">скидка 30%</h3>
+                    <h3 class="pricing-plan-cost ml-auto" style="font-size: 16px">$70 CAD</h3>
+
+                    <!--70-->
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" style="width: 100%;">
+                      <input type="hidden" name="cmd" value="_s-xclick" />
+                      <input type="hidden" name="hosted_button_id" value="N9R3PSC44VW56" />
+                      <table style="width: 100%;">
+                        <tr>
+                          <td>
+                            День: <select name="os0">
+                            <option value="March-20th">
+                              March-20th
+                            </option>
+                            <option value="March-21st">
+                              March-21st
+                            </option>
+                            <option value="March-22nd">
+                              March-22nd
+                            </option>
+                          </select>
+                          </td>
+                        </tr>
+                      </table>
+                      <input type="hidden" name="currency_code" value="CAD" />
+                      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Buy Now" />
+                    </form>
+
+                    <hr>
+                    <p class="pricing-plan-title">Только два дня **</p>
+                    <h3 class="pricing-plan-discount ml-auto" style="font-size: 16px">скидка 30%</h3>
+                    <h3 class="pricing-plan-cost ml-auto" style="font-size: 16px">$120 CAD<br></h3>
+
+                    <!--120-->
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" style="width: 100%;">
+                      <input type="hidden" name="cmd" value="_s-xclick" />
+                      <input type="hidden" name="hosted_button_id" value="3P8MJLH3TK298" />
+                      <table style="width: 100%;">
+                        <tr>
+                          <td>
+                            Дни: <select name="os0">
+                            <option value="March 20th and 21st">
+                              March 20th and 21st
+                            </option>
+                            <option value="March 20st and 22nd">
+                              March 20st and 22nd
+                            </option>
+                            <option value="March 21st and 22nd">
+                              March 21st and 22nd
+                            </option>
+                          </select>
+                          </td>
+                        </tr>
+                      </table>
+                      <input type="hidden" name="currency_code" value="CAD" />
+                      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Buy Now" />
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+<br>
+          <h6>Билеты продаются через PayPal. Eсли у вас нет PayPal-аккаунта, то PayPal предложит заплатить кредитной картой.</h6>
+          <h6>Если вы хотите заплатить наличными или E-Transfer - <a HREF="#contact">свяжитесь с организаторами</a>.</h6>
           <br>
-          <a class="btn-learn-more" href="vadim-2023.html"><b>Узнать больше о мероприятии</b></a>
+
+          <div class="row content" style="text-align: left">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8">
+
+
+              <h5 style="font-weight: bold">* VIP билет - что входит:</h5>
+          <ul>
+            <li>место в первых четырех рядах,</li>
+            <li>выбранное вами одно из 40 мест,</li>
+            <li>VIP-бэйдж,</li>
+            <li>эсклюзивная чашка,</li>
+            <li>волшебная сладость,</li>
+            <li>подарок от Торсунова,</li>
+            <li>возможность видеть лектора с небольшого расстояния,</li>
+            <li>возможность задать свой вопрос,</li>
+            <li>место закрепляется на все время семинара.</li>
+          </ul>
+          <h5 style="font-weight: bold">** Билет на один или два дня:</h5>
+          <ul>
+            <li>Семинар длится три дня, три вечера. Мы очень рекомедуем посетить весь семинар.</li>
+            <li>Билеты на один или два дня продаются для тех, у кого нет возможности присутствовать все три дня семинара.</li>
+          </ul>
+
+
+
+          <br/>
+          <h5 style="font-weight: bold">Используйте письмо от PayPal как подтверждение покупки.</h5>
+          <h6>В течении 1-2 дней мы пришлем Вам на ваш e-mail <b>билет</b> с информацией о семинаре.</h6>
+          <h6>Если Вы приобрели <i class="mdi mdi-trophy" style="font-size: 25px; color: #FDB515"></i> VIP-билет, мы свяжемся с Вам для выбора места.</h6>
+          <h6><a HREF="refunds.html" target="_blank">Политика возврата билетов</a></h6>
+          <br/>
+
+          <h5>
+            <i class="bi bi-info-circle"></i>&nbsp; Обязательно <a href="mailto:igor.kanshyn@gmail.com" target="_blank">пишите нам</a> если есть какие-то вопросы или сложности с покупкой.
+          </h5>
+          <br>
+
+            </div>
+          </div>
+          <h4>
+            Не готовы покупать билет, но хотите посетить лекцию?
+          </h4>
+          <ul>
+            <li>Оставьте нам информацию о себе в этой краткой контактной форме:<br> <a href="https://forms.gle/VVov8QnNZbcZqSmx7" target="_blank" class="link">Получить информацию о семинаре Олега Торсунова</a>
+            </li>
+          </ul>
+
+
+          <br>
+          <a class="btn-learn-more" href="torsunov-2024.html"><b>Узнать больше о мероприятии</b></a>
         </div>
 
       </div>
