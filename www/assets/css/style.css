@@ -14,12 +14,12 @@ body {
 }
 
 a {
-  color: #e43c5c;
+  color: #ECB159;
   text-decoration: none;
 }
 
 a:hover {
-  color: #ea6981;
+  color: #B67352;
   text-decoration: none;
 }
 
@@ -42,7 +42,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #e43c5c;
+  background: #ECB159;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -56,7 +56,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #e9607a;
+  background: #B67352;
   color: #fff;
 }
 
@@ -161,7 +161,7 @@ h6 {
   height: 2px;
   bottom: -6px;
   left: 0;
-  background-color: #e43c5c;
+  background-color: #ECB159;
   visibility: hidden;
   transform: scaleX(0);
   transition: all 0.3s ease-in-out 0s;
@@ -214,7 +214,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #e43c5c;
+  color: #ECB159;
 }
 
 .navbar .dropdown:hover>ul {
@@ -319,7 +319,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #e43c5c;
+  color: #ECB159;
 }
 
 .navbar-mobile .getstarted,
@@ -354,7 +354,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #e43c5c;
+  color: #ECB159;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -435,8 +435,8 @@ h6 {
 }
 
 #hero .btn-get-started:hover {
-  background: #e43c5c;
-  border: 2px solid #e43c5c;
+  background: #ECB159;
+  border: 2px solid #ECB159;
 }
 
 @media (min-width: 1024px) {
@@ -493,7 +493,7 @@ section {
   line-height: 1;
   margin: 0;
   background: #fdeff2;
-  color: #e43c5c;
+  color: #ECB159;
   display: inline-block;
   text-transform: uppercase;
   border-radius: 50px;
@@ -506,7 +506,7 @@ section {
 }
 
 .section-title h3 span {
-  color: #e43c5c;
+  color: #ECB159;
 }
 
 .section-title p {
@@ -547,7 +547,7 @@ section {
   left: 0;
   top: 2px;
   font-size: 20px;
-  color: #e43c5c;
+  color: #ECB159;
   line-height: 1;
 }
 
@@ -565,15 +565,15 @@ section {
   border-radius: 50px;
   transition: 0.3s;
   line-height: 1;
-  color: #e43c5c;
+  color: #ECB159;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   margin-top: 6px;
-  border: 2px solid #e43c5c;
+  border: 2px solid #ECB159;
 }
 
 .about .content .btn-learn-more:hover {
-  background: #e43c5c;
+  background: #ECB159;
   color: #fff;
   text-decoration: none;
 }
@@ -686,7 +686,7 @@ section {
 }
 
 .features .icon-box:hover a {
-  color: #e43c5c;
+  color: #ECB159;
 }
 
 /*--------------------------------------------------------------
@@ -733,8 +733,8 @@ section {
 }
 
 .cta .cta-btn:hover {
-  background: #e43c5c;
-  border: 2px solid #e43c5c;
+  background: #ECB159;
+  border: 2px solid #ECB159;
 }
 
 @media (min-width: 1024px) {
@@ -2085,15 +2085,6 @@ select.sb:focus {
 
 .btn {
   font-size: 1rem;
-}
-
-.image-blurred-edge {
-  background: url("../img/oleg-torsunov-toronto-blagost-bio.png");
-  background-size: 300px;
-  width: 300px;
-  height: 260px;
-  /* you need to match the shadow color to your background or image border for the desired effect*/
-  box-shadow: 0 0 8px 8px white inset;
 }
 
 @media (max-width: 991px) {
