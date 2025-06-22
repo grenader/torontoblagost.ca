@@ -17,6 +17,6 @@ gcloud app deploy
 
 # How to deploy to an alternative version
 ```
-gcloud app deploy -v torsunov-draft --no-promote
+gcloud app deploy -v torsunov-2025-draft --no-promote
 ```
 
