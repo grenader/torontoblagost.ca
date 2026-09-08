@@ -8,9 +8,11 @@ handlers:
     upload: www/index.html
     expiration: "1m"
     secure: always
+    redirect_http_response_code: 301
 
   - url: /(.*)
     static_files: www/\1
     upload: www/(.*)
     expiration: "1h"
     secure: always
+    redirect_http_response_code: 301
